@@ -11,7 +11,7 @@ default_args = {
     'owner': 'DABGFS',
     'email_on_failure': False,
     'depends_on_past': False,
-    'start_date': datetime(2018, 4, 22, 00, 00),
+    'start_date': datetime(2018, 4, 21, 00, 00),
     'retries': 5,
     'retry_delay': timedelta(seconds=240),
 }
