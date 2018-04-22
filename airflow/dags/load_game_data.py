@@ -1,24 +1,21 @@
+from datetime import date, datetime
+import airflow
 import json
-from pprint import pprint
-import requests
-from datetime import date, datetime, timedelta
-import os
-import pandas as pd
-import numpy as np
-import collect_data
+from airflow.operators.python_operator import PythonOperator
+from airflow.operators.bash_operator import BashOperator
+from airflow.models import DAG
 from kafka import KafkaProducer
 
-with open('/home/ec2-user/esports/schedule_today.json') as fh:
-    games_today = json.load(fh)
+import time
+from pprint import pprint
 
-for game_id, date in games_today.iteritems():
-    if datetime.now() > pd.Timestamp(date):
-        game_data = collect_data.get_play_by_play(game_id)
-        if game_data['game']['status'] == 'closed':
-            games_today.pop(game_id)
-        else:
-            producer = KafkaProducer(bootstrap_servers='localhost:9092')
-            producer.send('mlb_games', game_data)
+args = {
+    'owner': 'DABFS',
+    'start_date': datetime(2018, 4, 22, 00)
+}
 
-with open('/home/ec2-user/esports/schedule_today.json', 'wb') as fh:
-    json.dump(games_today, fh)
+dag = DAG('game_query', default_args=args, schedule_interval='*/20 * * * *')
+
+
+this_run = BashOperator(task_id='get_game_data',
+    bash_command="python /home/ec2-user/esports/src/pull_game_info.py", dag=dag)
