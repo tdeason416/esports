@@ -1,5 +1,3 @@
-from __future__ import print_function
-from builtins import range
 from datetime import date, datetime
 import airflow
 import json
@@ -10,7 +8,7 @@ import time
 from pprint import pprint
 
 args = {
-    'owner': 'airflow',
+    'owner': 'DABFS',
     'start_date': datetime(2018, 4, 22, 00)
 }
 
@@ -33,16 +31,6 @@ def get_game_schedule():
         games_today[game["game"]["id"]] = game["game"]["scheduled"]
     with open('../data/schedule_today.json', 'wb') as wf:
         json.dump(games_today, wf)
-
-def my_sleeping_function(random_base):
-    """This is a function that will run within the DAG execution"""
-    time.sleep(random_base)
-
-
-def print_context(ds, **kwargs):
-    pprint(kwargs)
-    print(ds)
-    return 'Whatever you return gets printed in the logs'
 
 run_this = PythonOperator(
     task_id='get_todays_schedule',
