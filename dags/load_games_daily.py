@@ -19,10 +19,3 @@ dag = DAG('daily_games', default_args=args, schedule_interval='30 0 * * *')
 
 this_run = BashOperator(task_id='get_todays_schedule',
     bash_command="python /home/ec2-user/esports/src/find_daily_events.py", dag=dag)
-
-# list_schedule = DAG('daily_games', default_args=args, schedule_interval='*/1 * * * *')
-
-# this_run = BashOperator(task_id='list_long',
-#     bash_command="ls -l", dag=list_schedule)
-
-# this_run
