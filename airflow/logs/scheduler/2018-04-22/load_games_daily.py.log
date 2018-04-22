@@ -1,0 +1,834 @@
+[2018-04-22 02:46:05,875] {jobs.py:343} DagFileProcessor1 INFO - Started process (PID=26662) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:05,899] {jobs.py:534} DagFileProcessor1 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:46:05,900] {jobs.py:1521} DagFileProcessor1 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:46:05,900] {models.py:167} DagFileProcessor1 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:06,067] {jobs.py:1535} DagFileProcessor1 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:06,201] {models.py:322} DagFileProcessor1 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:46:06,201] {models.py:328} DagFileProcessor1 INFO - Failing jobs without heartbeat after 2018-04-22 02:41:06.201884
+[2018-04-22 02:46:06,205] {jobs.py:351} DagFileProcessor1 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.329 seconds
+[2018-04-22 02:46:08,685] {jobs.py:343} DagFileProcessor3 INFO - Started process (PID=26670) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:08,713] {jobs.py:534} DagFileProcessor3 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:46:08,714] {jobs.py:1521} DagFileProcessor3 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:46:08,714] {models.py:167} DagFileProcessor3 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:08,883] {jobs.py:1535} DagFileProcessor3 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:09,016] {models.py:322} DagFileProcessor3 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:46:09,016] {models.py:328} DagFileProcessor3 INFO - Failing jobs without heartbeat after 2018-04-22 02:41:09.016928
+[2018-04-22 02:46:09,020] {jobs.py:351} DagFileProcessor3 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.335 seconds
+[2018-04-22 02:46:11,502] {jobs.py:343} DagFileProcessor5 INFO - Started process (PID=26678) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:11,534] {jobs.py:534} DagFileProcessor5 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:46:11,534] {jobs.py:1521} DagFileProcessor5 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:46:11,535] {models.py:167} DagFileProcessor5 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:11,702] {jobs.py:1535} DagFileProcessor5 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:11,835] {models.py:322} DagFileProcessor5 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:46:11,835] {models.py:328} DagFileProcessor5 INFO - Failing jobs without heartbeat after 2018-04-22 02:41:11.835708
+[2018-04-22 02:46:11,839] {jobs.py:351} DagFileProcessor5 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.337 seconds
+[2018-04-22 02:46:14,311] {jobs.py:343} DagFileProcessor7 INFO - Started process (PID=26686) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:14,338] {jobs.py:534} DagFileProcessor7 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:46:14,339] {jobs.py:1521} DagFileProcessor7 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:46:14,339] {models.py:167} DagFileProcessor7 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:14,508] {jobs.py:1535} DagFileProcessor7 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:14,648] {models.py:322} DagFileProcessor7 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:46:14,648] {models.py:328} DagFileProcessor7 INFO - Failing jobs without heartbeat after 2018-04-22 02:41:14.648682
+[2018-04-22 02:46:14,652] {jobs.py:351} DagFileProcessor7 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.340 seconds
+[2018-04-22 02:46:17,127] {jobs.py:343} DagFileProcessor9 INFO - Started process (PID=26694) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:17,157] {jobs.py:534} DagFileProcessor9 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:46:17,158] {jobs.py:1521} DagFileProcessor9 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:46:17,158] {models.py:167} DagFileProcessor9 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:17,327] {jobs.py:1535} DagFileProcessor9 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:17,462] {models.py:322} DagFileProcessor9 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:46:17,462] {models.py:328} DagFileProcessor9 INFO - Failing jobs without heartbeat after 2018-04-22 02:41:17.462409
+[2018-04-22 02:46:17,465] {jobs.py:351} DagFileProcessor9 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.338 seconds
+[2018-04-22 02:46:19,937] {jobs.py:343} DagFileProcessor11 INFO - Started process (PID=26704) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:19,965] {jobs.py:534} DagFileProcessor11 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:46:19,966] {jobs.py:1521} DagFileProcessor11 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:46:19,966] {models.py:167} DagFileProcessor11 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:20,134] {jobs.py:1535} DagFileProcessor11 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:20,263] {jobs.py:1169} DagFileProcessor11 INFO - Processing daily_games
+[2018-04-22 02:46:20,270] {jobs.py:860} DagFileProcessor11 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:46:20,278] {models.py:4024} DagFileProcessor11 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:46:20,282] {jobs.py:566} DagFileProcessor11 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:46:20,288] {models.py:1126} DagFileProcessor11 INFO - Dependencies all met for <TaskInstance: daily_games.get_todays_schedule 2018-04-21 00:30:00 [None]>
+[2018-04-22 02:46:20,288] {jobs.py:1608} DagFileProcessor11 INFO - Creating / updating <TaskInstance: daily_games.get_todays_schedule 2018-04-21 00:30:00 [scheduled]> in ORM
+[2018-04-22 02:46:20,298] {models.py:322} DagFileProcessor11 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:46:20,298] {models.py:328} DagFileProcessor11 INFO - Failing jobs without heartbeat after 2018-04-22 02:41:20.298584
+[2018-04-22 02:46:20,300] {jobs.py:351} DagFileProcessor11 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.363 seconds
+[2018-04-22 02:46:23,389] {jobs.py:343} DagFileProcessor13 INFO - Started process (PID=26718) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:23,392] {jobs.py:534} DagFileProcessor13 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:46:23,393] {jobs.py:1521} DagFileProcessor13 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:46:23,393] {models.py:167} DagFileProcessor13 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:23,560] {jobs.py:1535} DagFileProcessor13 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:23,686] {jobs.py:1169} DagFileProcessor13 INFO - Processing daily_games
+[2018-04-22 02:46:23,693] {jobs.py:860} DagFileProcessor13 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:46:23,697] {models.py:4024} DagFileProcessor13 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:46:23,700] {jobs.py:566} DagFileProcessor13 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:46:23,709] {models.py:322} DagFileProcessor13 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:46:23,709] {models.py:328} DagFileProcessor13 INFO - Failing jobs without heartbeat after 2018-04-22 02:41:23.709583
+[2018-04-22 02:46:23,711] {jobs.py:351} DagFileProcessor13 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.322 seconds
+[2018-04-22 02:46:26,209] {jobs.py:343} DagFileProcessor15 INFO - Started process (PID=26726) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:26,237] {jobs.py:534} DagFileProcessor15 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:46:26,238] {jobs.py:1521} DagFileProcessor15 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:46:26,238] {models.py:167} DagFileProcessor15 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:26,406] {jobs.py:1535} DagFileProcessor15 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:26,532] {jobs.py:1169} DagFileProcessor15 INFO - Processing daily_games
+[2018-04-22 02:46:26,538] {jobs.py:860} DagFileProcessor15 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:46:26,542] {models.py:4024} DagFileProcessor15 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:46:26,545] {jobs.py:566} DagFileProcessor15 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:46:26,554] {models.py:322} DagFileProcessor15 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:46:26,554] {models.py:328} DagFileProcessor15 INFO - Failing jobs without heartbeat after 2018-04-22 02:41:26.554955
+[2018-04-22 02:46:26,557] {jobs.py:351} DagFileProcessor15 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.347 seconds
+[2018-04-22 02:46:29,037] {jobs.py:343} DagFileProcessor17 INFO - Started process (PID=26734) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:29,067] {jobs.py:534} DagFileProcessor17 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:46:29,068] {jobs.py:1521} DagFileProcessor17 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:46:29,068] {models.py:167} DagFileProcessor17 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:29,236] {jobs.py:1535} DagFileProcessor17 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:29,363] {jobs.py:1169} DagFileProcessor17 INFO - Processing daily_games
+[2018-04-22 02:46:29,369] {jobs.py:860} DagFileProcessor17 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:46:29,373] {models.py:4024} DagFileProcessor17 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:46:29,376] {jobs.py:566} DagFileProcessor17 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:46:29,385] {models.py:322} DagFileProcessor17 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:46:29,385] {models.py:328} DagFileProcessor17 INFO - Failing jobs without heartbeat after 2018-04-22 02:41:29.385960
+[2018-04-22 02:46:29,388] {jobs.py:351} DagFileProcessor17 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.351 seconds
+[2018-04-22 02:46:31,858] {jobs.py:343} DagFileProcessor19 INFO - Started process (PID=26742) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:31,881] {jobs.py:534} DagFileProcessor19 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:46:31,882] {jobs.py:1521} DagFileProcessor19 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:46:31,882] {models.py:167} DagFileProcessor19 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:32,051] {jobs.py:1535} DagFileProcessor19 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:32,177] {jobs.py:1169} DagFileProcessor19 INFO - Processing daily_games
+[2018-04-22 02:46:32,183] {jobs.py:860} DagFileProcessor19 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:46:32,187] {models.py:4024} DagFileProcessor19 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:46:32,190] {jobs.py:566} DagFileProcessor19 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:46:32,199] {models.py:322} DagFileProcessor19 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:46:32,199] {models.py:328} DagFileProcessor19 INFO - Failing jobs without heartbeat after 2018-04-22 02:41:32.199780
+[2018-04-22 02:46:32,202] {jobs.py:351} DagFileProcessor19 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.344 seconds
+[2018-04-22 02:46:34,685] {jobs.py:343} DagFileProcessor21 INFO - Started process (PID=26750) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:34,702] {jobs.py:534} DagFileProcessor21 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:46:34,703] {jobs.py:1521} DagFileProcessor21 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:46:34,703] {models.py:167} DagFileProcessor21 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:34,872] {jobs.py:1535} DagFileProcessor21 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:35,001] {jobs.py:1169} DagFileProcessor21 INFO - Processing daily_games
+[2018-04-22 02:46:35,008] {jobs.py:860} DagFileProcessor21 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:46:35,011] {models.py:4024} DagFileProcessor21 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:46:35,015] {jobs.py:566} DagFileProcessor21 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:46:35,024] {models.py:322} DagFileProcessor21 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:46:35,024] {models.py:328} DagFileProcessor21 INFO - Failing jobs without heartbeat after 2018-04-22 02:41:35.024546
+[2018-04-22 02:46:35,026] {jobs.py:351} DagFileProcessor21 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.342 seconds
+[2018-04-22 02:46:37,507] {jobs.py:343} DagFileProcessor23 INFO - Started process (PID=26758) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:37,541] {jobs.py:534} DagFileProcessor23 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:46:37,542] {jobs.py:1521} DagFileProcessor23 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:46:37,542] {models.py:167} DagFileProcessor23 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:37,711] {jobs.py:1535} DagFileProcessor23 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:37,838] {jobs.py:1169} DagFileProcessor23 INFO - Processing daily_games
+[2018-04-22 02:46:37,844] {jobs.py:860} DagFileProcessor23 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:46:37,848] {models.py:4024} DagFileProcessor23 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:46:37,852] {jobs.py:566} DagFileProcessor23 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:46:37,861] {models.py:322} DagFileProcessor23 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:46:37,861] {models.py:328} DagFileProcessor23 INFO - Failing jobs without heartbeat after 2018-04-22 02:41:37.861232
+[2018-04-22 02:46:37,863] {jobs.py:351} DagFileProcessor23 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.356 seconds
+[2018-04-22 02:46:40,334] {jobs.py:343} DagFileProcessor25 INFO - Started process (PID=26766) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:40,356] {jobs.py:534} DagFileProcessor25 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:46:40,357] {jobs.py:1521} DagFileProcessor25 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:46:40,357] {models.py:167} DagFileProcessor25 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:40,526] {jobs.py:1535} DagFileProcessor25 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:40,651] {jobs.py:1169} DagFileProcessor25 INFO - Processing daily_games
+[2018-04-22 02:46:40,657] {jobs.py:860} DagFileProcessor25 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:46:40,661] {models.py:4024} DagFileProcessor25 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:46:40,664] {jobs.py:566} DagFileProcessor25 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:46:40,673] {models.py:322} DagFileProcessor25 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:46:40,673] {models.py:328} DagFileProcessor25 INFO - Failing jobs without heartbeat after 2018-04-22 02:41:40.673972
+[2018-04-22 02:46:40,676] {jobs.py:351} DagFileProcessor25 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.342 seconds
+[2018-04-22 02:46:43,156] {jobs.py:343} DagFileProcessor27 INFO - Started process (PID=26774) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:43,180] {jobs.py:534} DagFileProcessor27 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:46:43,180] {jobs.py:1521} DagFileProcessor27 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:46:43,180] {models.py:167} DagFileProcessor27 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:43,348] {jobs.py:1535} DagFileProcessor27 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:43,475] {jobs.py:1169} DagFileProcessor27 INFO - Processing daily_games
+[2018-04-22 02:46:43,481] {jobs.py:860} DagFileProcessor27 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:46:43,485] {models.py:4024} DagFileProcessor27 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:46:43,489] {jobs.py:566} DagFileProcessor27 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:46:43,498] {models.py:322} DagFileProcessor27 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:46:43,498] {models.py:328} DagFileProcessor27 INFO - Failing jobs without heartbeat after 2018-04-22 02:41:43.498437
+[2018-04-22 02:46:43,500] {jobs.py:351} DagFileProcessor27 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.345 seconds
+[2018-04-22 02:46:45,982] {jobs.py:343} DagFileProcessor29 INFO - Started process (PID=26782) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:46,009] {jobs.py:534} DagFileProcessor29 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:46:46,009] {jobs.py:1521} DagFileProcessor29 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:46:46,010] {models.py:167} DagFileProcessor29 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:46,177] {jobs.py:1535} DagFileProcessor29 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:46,302] {jobs.py:1169} DagFileProcessor29 INFO - Processing daily_games
+[2018-04-22 02:46:46,308] {jobs.py:860} DagFileProcessor29 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:46:46,312] {models.py:4024} DagFileProcessor29 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:46:46,316] {jobs.py:566} DagFileProcessor29 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:46:46,325] {models.py:322} DagFileProcessor29 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:46:46,325] {models.py:328} DagFileProcessor29 INFO - Failing jobs without heartbeat after 2018-04-22 02:41:46.325309
+[2018-04-22 02:46:46,327] {jobs.py:351} DagFileProcessor29 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.345 seconds
+[2018-04-22 02:46:48,803] {jobs.py:343} DagFileProcessor31 INFO - Started process (PID=26790) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:48,822] {jobs.py:534} DagFileProcessor31 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:46:48,823] {jobs.py:1521} DagFileProcessor31 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:46:48,823] {models.py:167} DagFileProcessor31 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:48,991] {jobs.py:1535} DagFileProcessor31 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:49,115] {jobs.py:1169} DagFileProcessor31 INFO - Processing daily_games
+[2018-04-22 02:46:49,121] {jobs.py:860} DagFileProcessor31 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:46:49,125] {models.py:4024} DagFileProcessor31 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:46:49,129] {jobs.py:566} DagFileProcessor31 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:46:49,137] {models.py:322} DagFileProcessor31 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:46:49,137] {models.py:328} DagFileProcessor31 INFO - Failing jobs without heartbeat after 2018-04-22 02:41:49.137965
+[2018-04-22 02:46:49,140] {jobs.py:351} DagFileProcessor31 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.336 seconds
+[2018-04-22 02:46:51,630] {jobs.py:343} DagFileProcessor33 INFO - Started process (PID=26798) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:51,651] {jobs.py:534} DagFileProcessor33 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:46:51,652] {jobs.py:1521} DagFileProcessor33 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:46:51,652] {models.py:167} DagFileProcessor33 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:51,819] {jobs.py:1535} DagFileProcessor33 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:51,945] {jobs.py:1169} DagFileProcessor33 INFO - Processing daily_games
+[2018-04-22 02:46:51,951] {jobs.py:860} DagFileProcessor33 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:46:51,955] {models.py:4024} DagFileProcessor33 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:46:51,958] {jobs.py:566} DagFileProcessor33 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:46:51,967] {models.py:322} DagFileProcessor33 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:46:51,967] {models.py:328} DagFileProcessor33 INFO - Failing jobs without heartbeat after 2018-04-22 02:41:51.967694
+[2018-04-22 02:46:51,970] {jobs.py:351} DagFileProcessor33 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.339 seconds
+[2018-04-22 02:46:54,452] {jobs.py:343} DagFileProcessor35 INFO - Started process (PID=26808) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:54,455] {jobs.py:534} DagFileProcessor35 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:46:54,456] {jobs.py:1521} DagFileProcessor35 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:46:54,456] {models.py:167} DagFileProcessor35 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:54,623] {jobs.py:1535} DagFileProcessor35 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:54,751] {jobs.py:1169} DagFileProcessor35 INFO - Processing daily_games
+[2018-04-22 02:46:54,757] {jobs.py:860} DagFileProcessor35 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:46:54,761] {models.py:4024} DagFileProcessor35 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:46:54,764] {jobs.py:566} DagFileProcessor35 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:46:54,773] {models.py:322} DagFileProcessor35 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:46:54,773] {models.py:328} DagFileProcessor35 INFO - Failing jobs without heartbeat after 2018-04-22 02:41:54.773759
+[2018-04-22 02:46:54,776] {jobs.py:351} DagFileProcessor35 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.324 seconds
+[2018-04-22 02:46:57,279] {jobs.py:343} DagFileProcessor37 INFO - Started process (PID=26816) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:57,302] {jobs.py:534} DagFileProcessor37 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:46:57,303] {jobs.py:1521} DagFileProcessor37 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:46:57,303] {models.py:167} DagFileProcessor37 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:57,470] {jobs.py:1535} DagFileProcessor37 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:46:57,599] {jobs.py:1169} DagFileProcessor37 INFO - Processing daily_games
+[2018-04-22 02:46:57,604] {jobs.py:860} DagFileProcessor37 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:46:57,608] {models.py:4024} DagFileProcessor37 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:46:57,612] {jobs.py:566} DagFileProcessor37 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:46:57,621] {models.py:322} DagFileProcessor37 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:46:57,621] {models.py:328} DagFileProcessor37 INFO - Failing jobs without heartbeat after 2018-04-22 02:41:57.621484
+[2018-04-22 02:46:57,623] {jobs.py:351} DagFileProcessor37 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.344 seconds
+[2018-04-22 02:47:00,101] {jobs.py:343} DagFileProcessor39 INFO - Started process (PID=26824) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:00,126] {jobs.py:534} DagFileProcessor39 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:47:00,127] {jobs.py:1521} DagFileProcessor39 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:47:00,127] {models.py:167} DagFileProcessor39 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:00,295] {jobs.py:1535} DagFileProcessor39 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:00,422] {jobs.py:1169} DagFileProcessor39 INFO - Processing daily_games
+[2018-04-22 02:47:00,428] {jobs.py:860} DagFileProcessor39 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:47:00,432] {models.py:4024} DagFileProcessor39 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:47:00,435] {jobs.py:566} DagFileProcessor39 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:47:00,445] {models.py:322} DagFileProcessor39 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:47:00,445] {models.py:328} DagFileProcessor39 INFO - Failing jobs without heartbeat after 2018-04-22 02:42:00.445376
+[2018-04-22 02:47:00,447] {jobs.py:351} DagFileProcessor39 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.347 seconds
+[2018-04-22 02:47:02,929] {jobs.py:343} DagFileProcessor41 INFO - Started process (PID=26832) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:02,953] {jobs.py:534} DagFileProcessor41 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:47:02,954] {jobs.py:1521} DagFileProcessor41 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:47:02,954] {models.py:167} DagFileProcessor41 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:03,124] {jobs.py:1535} DagFileProcessor41 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:03,256] {jobs.py:1169} DagFileProcessor41 INFO - Processing daily_games
+[2018-04-22 02:47:03,262] {jobs.py:860} DagFileProcessor41 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:47:03,266] {models.py:4024} DagFileProcessor41 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:47:03,270] {jobs.py:566} DagFileProcessor41 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:47:03,279] {models.py:322} DagFileProcessor41 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:47:03,279] {models.py:328} DagFileProcessor41 INFO - Failing jobs without heartbeat after 2018-04-22 02:42:03.279572
+[2018-04-22 02:47:03,316] {jobs.py:351} DagFileProcessor41 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.387 seconds
+[2018-04-22 02:47:05,750] {jobs.py:343} DagFileProcessor43 INFO - Started process (PID=26840) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:05,782] {jobs.py:534} DagFileProcessor43 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:47:05,783] {jobs.py:1521} DagFileProcessor43 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:47:05,783] {models.py:167} DagFileProcessor43 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:05,951] {jobs.py:1535} DagFileProcessor43 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:06,075] {jobs.py:1169} DagFileProcessor43 INFO - Processing daily_games
+[2018-04-22 02:47:06,081] {jobs.py:860} DagFileProcessor43 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:47:06,085] {models.py:4024} DagFileProcessor43 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:47:06,089] {jobs.py:566} DagFileProcessor43 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:47:06,130] {models.py:322} DagFileProcessor43 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:47:06,131] {models.py:328} DagFileProcessor43 INFO - Failing jobs without heartbeat after 2018-04-22 02:42:06.131059
+[2018-04-22 02:47:06,133] {jobs.py:351} DagFileProcessor43 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.383 seconds
+[2018-04-22 02:47:08,577] {jobs.py:343} DagFileProcessor45 INFO - Started process (PID=26848) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:08,586] {jobs.py:534} DagFileProcessor45 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:47:08,587] {jobs.py:1521} DagFileProcessor45 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:47:08,587] {models.py:167} DagFileProcessor45 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:08,755] {jobs.py:1535} DagFileProcessor45 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:08,885] {jobs.py:1169} DagFileProcessor45 INFO - Processing daily_games
+[2018-04-22 02:47:08,891] {jobs.py:860} DagFileProcessor45 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:47:08,929] {models.py:4024} DagFileProcessor45 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:47:08,933] {jobs.py:566} DagFileProcessor45 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:47:08,942] {models.py:322} DagFileProcessor45 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:47:08,942] {models.py:328} DagFileProcessor45 INFO - Failing jobs without heartbeat after 2018-04-22 02:42:08.942493
+[2018-04-22 02:47:08,944] {jobs.py:351} DagFileProcessor45 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.367 seconds
+[2018-04-22 02:47:11,398] {jobs.py:343} DagFileProcessor47 INFO - Started process (PID=26856) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:11,424] {jobs.py:534} DagFileProcessor47 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:47:11,425] {jobs.py:1521} DagFileProcessor47 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:47:11,425] {models.py:167} DagFileProcessor47 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:11,592] {jobs.py:1535} DagFileProcessor47 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:11,719] {jobs.py:1169} DagFileProcessor47 INFO - Processing daily_games
+[2018-04-22 02:47:11,758] {jobs.py:860} DagFileProcessor47 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:47:11,762] {models.py:4024} DagFileProcessor47 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:47:11,766] {jobs.py:566} DagFileProcessor47 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:47:11,774] {models.py:322} DagFileProcessor47 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:47:11,775] {models.py:328} DagFileProcessor47 INFO - Failing jobs without heartbeat after 2018-04-22 02:42:11.775140
+[2018-04-22 02:47:11,777] {jobs.py:351} DagFileProcessor47 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.379 seconds
+[2018-04-22 02:47:14,225] {jobs.py:343} DagFileProcessor49 INFO - Started process (PID=26864) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:14,228] {jobs.py:534} DagFileProcessor49 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:47:14,229] {jobs.py:1521} DagFileProcessor49 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:47:14,229] {models.py:167} DagFileProcessor49 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:14,395] {jobs.py:1535} DagFileProcessor49 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:14,556] {jobs.py:1169} DagFileProcessor49 INFO - Processing daily_games
+[2018-04-22 02:47:14,562] {jobs.py:860} DagFileProcessor49 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:47:14,566] {models.py:4024} DagFileProcessor49 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:47:14,569] {jobs.py:566} DagFileProcessor49 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:47:14,578] {models.py:322} DagFileProcessor49 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:47:14,578] {models.py:328} DagFileProcessor49 INFO - Failing jobs without heartbeat after 2018-04-22 02:42:14.578628
+[2018-04-22 02:47:14,580] {jobs.py:351} DagFileProcessor49 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.355 seconds
+[2018-04-22 02:47:17,047] {jobs.py:343} DagFileProcessor51 INFO - Started process (PID=26872) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:17,049] {jobs.py:534} DagFileProcessor51 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:47:17,050] {jobs.py:1521} DagFileProcessor51 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:47:17,050] {models.py:167} DagFileProcessor51 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:17,217] {jobs.py:1535} DagFileProcessor51 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:17,377] {jobs.py:1169} DagFileProcessor51 INFO - Processing daily_games
+[2018-04-22 02:47:17,383] {jobs.py:860} DagFileProcessor51 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:47:17,386] {models.py:4024} DagFileProcessor51 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:47:17,390] {jobs.py:566} DagFileProcessor51 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:47:17,399] {models.py:322} DagFileProcessor51 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:47:17,399] {models.py:328} DagFileProcessor51 INFO - Failing jobs without heartbeat after 2018-04-22 02:42:17.399507
+[2018-04-22 02:47:17,401] {jobs.py:351} DagFileProcessor51 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.355 seconds
+[2018-04-22 02:47:19,873] {jobs.py:343} DagFileProcessor53 INFO - Started process (PID=26880) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:19,900] {jobs.py:534} DagFileProcessor53 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:47:19,901] {jobs.py:1521} DagFileProcessor53 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:47:19,901] {models.py:167} DagFileProcessor53 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:20,070] {jobs.py:1535} DagFileProcessor53 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:20,232] {jobs.py:1169} DagFileProcessor53 INFO - Processing daily_games
+[2018-04-22 02:47:20,237] {jobs.py:860} DagFileProcessor53 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:47:20,241] {models.py:4024} DagFileProcessor53 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:47:20,245] {jobs.py:566} DagFileProcessor53 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:47:20,254] {models.py:322} DagFileProcessor53 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:47:20,254] {models.py:328} DagFileProcessor53 INFO - Failing jobs without heartbeat after 2018-04-22 02:42:20.254308
+[2018-04-22 02:47:20,256] {jobs.py:351} DagFileProcessor53 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.383 seconds
+[2018-04-22 02:47:22,694] {jobs.py:343} DagFileProcessor55 INFO - Started process (PID=26888) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:22,721] {jobs.py:534} DagFileProcessor55 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:47:22,721] {jobs.py:1521} DagFileProcessor55 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:47:22,721] {models.py:167} DagFileProcessor55 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:22,889] {jobs.py:1535} DagFileProcessor55 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:23,048] {jobs.py:1169} DagFileProcessor55 INFO - Processing daily_games
+[2018-04-22 02:47:23,054] {jobs.py:860} DagFileProcessor55 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:47:23,058] {models.py:4024} DagFileProcessor55 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:47:23,061] {jobs.py:566} DagFileProcessor55 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:47:23,070] {models.py:322} DagFileProcessor55 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:47:23,070] {models.py:328} DagFileProcessor55 INFO - Failing jobs without heartbeat after 2018-04-22 02:42:23.070768
+[2018-04-22 02:47:23,072] {jobs.py:351} DagFileProcessor55 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.379 seconds
+[2018-04-22 02:47:25,522] {jobs.py:343} DagFileProcessor57 INFO - Started process (PID=26898) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:25,544] {jobs.py:534} DagFileProcessor57 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:47:25,545] {jobs.py:1521} DagFileProcessor57 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:47:25,545] {models.py:167} DagFileProcessor57 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:25,713] {jobs.py:1535} DagFileProcessor57 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:25,873] {jobs.py:1169} DagFileProcessor57 INFO - Processing daily_games
+[2018-04-22 02:47:25,879] {jobs.py:860} DagFileProcessor57 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:47:25,882] {models.py:4024} DagFileProcessor57 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:47:25,886] {jobs.py:566} DagFileProcessor57 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:47:25,895] {models.py:322} DagFileProcessor57 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:47:25,895] {models.py:328} DagFileProcessor57 INFO - Failing jobs without heartbeat after 2018-04-22 02:42:25.895384
+[2018-04-22 02:47:25,897] {jobs.py:351} DagFileProcessor57 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.375 seconds
+[2018-04-22 02:47:28,343] {jobs.py:343} DagFileProcessor59 INFO - Started process (PID=26906) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:28,365] {jobs.py:534} DagFileProcessor59 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:47:28,366] {jobs.py:1521} DagFileProcessor59 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:47:28,366] {models.py:167} DagFileProcessor59 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:28,533] {jobs.py:1535} DagFileProcessor59 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:28,692] {jobs.py:1169} DagFileProcessor59 INFO - Processing daily_games
+[2018-04-22 02:47:28,698] {jobs.py:860} DagFileProcessor59 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:47:28,702] {models.py:4024} DagFileProcessor59 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:47:28,705] {jobs.py:566} DagFileProcessor59 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:47:28,714] {models.py:322} DagFileProcessor59 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:47:28,714] {models.py:328} DagFileProcessor59 INFO - Failing jobs without heartbeat after 2018-04-22 02:42:28.714692
+[2018-04-22 02:47:28,716] {jobs.py:351} DagFileProcessor59 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.373 seconds
+[2018-04-22 02:47:31,170] {jobs.py:343} DagFileProcessor61 INFO - Started process (PID=26914) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:31,194] {jobs.py:534} DagFileProcessor61 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:47:31,195] {jobs.py:1521} DagFileProcessor61 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:47:31,195] {models.py:167} DagFileProcessor61 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:31,396] {jobs.py:1535} DagFileProcessor61 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:31,520] {jobs.py:1169} DagFileProcessor61 INFO - Processing daily_games
+[2018-04-22 02:47:31,526] {jobs.py:860} DagFileProcessor61 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:47:31,530] {models.py:4024} DagFileProcessor61 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:47:31,534] {jobs.py:566} DagFileProcessor61 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:47:31,542] {models.py:322} DagFileProcessor61 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:47:31,542] {models.py:328} DagFileProcessor61 INFO - Failing jobs without heartbeat after 2018-04-22 02:42:31.542935
+[2018-04-22 02:47:31,545] {jobs.py:351} DagFileProcessor61 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.375 seconds
+[2018-04-22 02:47:33,991] {jobs.py:343} DagFileProcessor63 INFO - Started process (PID=26922) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:34,016] {jobs.py:534} DagFileProcessor63 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:47:34,017] {jobs.py:1521} DagFileProcessor63 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:47:34,017] {models.py:167} DagFileProcessor63 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:34,220] {jobs.py:1535} DagFileProcessor63 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:47:34,347] {jobs.py:1169} DagFileProcessor63 INFO - Processing daily_games
+[2018-04-22 02:47:34,353] {jobs.py:860} DagFileProcessor63 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:47:34,357] {models.py:4024} DagFileProcessor63 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:47:34,360] {jobs.py:566} DagFileProcessor63 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:47:34,369] {models.py:322} DagFileProcessor63 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:47:34,369] {models.py:328} DagFileProcessor63 INFO - Failing jobs without heartbeat after 2018-04-22 02:42:34.369607
+[2018-04-22 02:47:34,371] {jobs.py:351} DagFileProcessor63 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.381 seconds
+[2018-04-22 02:49:17,757] {jobs.py:343} DagFileProcessor1 INFO - Started process (PID=26978) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:49:17,782] {jobs.py:534} DagFileProcessor1 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:49:17,783] {jobs.py:1521} DagFileProcessor1 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:49:17,783] {models.py:167} DagFileProcessor1 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:49:17,953] {jobs.py:1535} DagFileProcessor1 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:49:18,078] {jobs.py:1169} DagFileProcessor1 INFO - Processing daily_games
+[2018-04-22 02:49:18,084] {jobs.py:860} DagFileProcessor1 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:49:18,088] {models.py:4024} DagFileProcessor1 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:49:18,092] {jobs.py:566} DagFileProcessor1 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:49:18,101] {models.py:322} DagFileProcessor1 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:49:18,102] {models.py:328} DagFileProcessor1 INFO - Failing jobs without heartbeat after 2018-04-22 02:44:18.102134
+[2018-04-22 02:49:18,104] {jobs.py:351} DagFileProcessor1 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.347 seconds
+[2018-04-22 02:49:20,578] {jobs.py:343} DagFileProcessor3 INFO - Started process (PID=26986) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:49:20,604] {jobs.py:534} DagFileProcessor3 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:49:20,604] {jobs.py:1521} DagFileProcessor3 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:49:20,604] {models.py:167} DagFileProcessor3 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:49:20,772] {jobs.py:1535} DagFileProcessor3 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:49:20,899] {jobs.py:1169} DagFileProcessor3 INFO - Processing daily_games
+[2018-04-22 02:49:20,905] {jobs.py:860} DagFileProcessor3 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:49:20,909] {models.py:4024} DagFileProcessor3 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:49:20,913] {jobs.py:566} DagFileProcessor3 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:49:20,923] {models.py:322} DagFileProcessor3 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:49:20,923] {models.py:328} DagFileProcessor3 INFO - Failing jobs without heartbeat after 2018-04-22 02:44:20.923313
+[2018-04-22 02:49:20,925] {jobs.py:351} DagFileProcessor3 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.347 seconds
+[2018-04-22 02:49:23,406] {jobs.py:343} DagFileProcessor5 INFO - Started process (PID=26994) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:49:23,409] {jobs.py:534} DagFileProcessor5 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:49:23,410] {jobs.py:1521} DagFileProcessor5 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:49:23,410] {models.py:167} DagFileProcessor5 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:49:23,576] {jobs.py:1535} DagFileProcessor5 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:49:23,706] {jobs.py:1169} DagFileProcessor5 INFO - Processing daily_games
+[2018-04-22 02:49:23,712] {jobs.py:860} DagFileProcessor5 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:49:23,716] {models.py:4024} DagFileProcessor5 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:49:23,719] {jobs.py:566} DagFileProcessor5 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:49:23,728] {models.py:322} DagFileProcessor5 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:49:23,729] {models.py:328} DagFileProcessor5 INFO - Failing jobs without heartbeat after 2018-04-22 02:44:23.729154
+[2018-04-22 02:49:23,731] {jobs.py:351} DagFileProcessor5 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.325 seconds
+[2018-04-22 02:49:26,227] {jobs.py:343} DagFileProcessor7 INFO - Started process (PID=27002) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:49:26,254] {jobs.py:534} DagFileProcessor7 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:49:26,255] {jobs.py:1521} DagFileProcessor7 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:49:26,255] {models.py:167} DagFileProcessor7 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:49:26,422] {jobs.py:1535} DagFileProcessor7 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:49:26,547] {jobs.py:1169} DagFileProcessor7 INFO - Processing daily_games
+[2018-04-22 02:49:26,553] {jobs.py:860} DagFileProcessor7 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:49:26,557] {models.py:4024} DagFileProcessor7 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:49:26,561] {jobs.py:566} DagFileProcessor7 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:49:26,570] {models.py:322} DagFileProcessor7 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:49:26,570] {models.py:328} DagFileProcessor7 INFO - Failing jobs without heartbeat after 2018-04-22 02:44:26.570405
+[2018-04-22 02:49:26,572] {jobs.py:351} DagFileProcessor7 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.345 seconds
+[2018-04-22 02:49:29,055] {jobs.py:343} DagFileProcessor9 INFO - Started process (PID=27012) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:49:29,077] {jobs.py:534} DagFileProcessor9 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:49:29,078] {jobs.py:1521} DagFileProcessor9 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:49:29,078] {models.py:167} DagFileProcessor9 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:49:29,243] {jobs.py:1535} DagFileProcessor9 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:49:29,372] {jobs.py:1169} DagFileProcessor9 INFO - Processing daily_games
+[2018-04-22 02:49:29,377] {jobs.py:860} DagFileProcessor9 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:49:29,382] {models.py:4024} DagFileProcessor9 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:49:29,385] {jobs.py:566} DagFileProcessor9 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:49:29,394] {models.py:322} DagFileProcessor9 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:49:29,394] {models.py:328} DagFileProcessor9 INFO - Failing jobs without heartbeat after 2018-04-22 02:44:29.394694
+[2018-04-22 02:49:29,396] {jobs.py:351} DagFileProcessor9 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.342 seconds
+[2018-04-22 02:49:31,875] {jobs.py:343} DagFileProcessor11 INFO - Started process (PID=27020) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:49:31,878] {jobs.py:534} DagFileProcessor11 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:49:31,879] {jobs.py:1521} DagFileProcessor11 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:49:31,879] {models.py:167} DagFileProcessor11 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:49:32,044] {jobs.py:1535} DagFileProcessor11 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:49:32,171] {jobs.py:1169} DagFileProcessor11 INFO - Processing daily_games
+[2018-04-22 02:49:32,177] {jobs.py:860} DagFileProcessor11 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:49:32,181] {models.py:4024} DagFileProcessor11 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:49:32,185] {jobs.py:566} DagFileProcessor11 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:49:32,194] {models.py:322} DagFileProcessor11 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:49:32,194] {models.py:328} DagFileProcessor11 INFO - Failing jobs without heartbeat after 2018-04-22 02:44:32.194626
+[2018-04-22 02:49:32,196] {jobs.py:351} DagFileProcessor11 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.321 seconds
+[2018-04-22 02:49:34,702] {jobs.py:343} DagFileProcessor13 INFO - Started process (PID=27028) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:49:34,726] {jobs.py:534} DagFileProcessor13 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:49:34,727] {jobs.py:1521} DagFileProcessor13 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:49:34,727] {models.py:167} DagFileProcessor13 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:49:34,893] {jobs.py:1535} DagFileProcessor13 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:49:35,018] {jobs.py:1169} DagFileProcessor13 INFO - Processing daily_games
+[2018-04-22 02:49:35,025] {jobs.py:860} DagFileProcessor13 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:49:35,029] {models.py:4024} DagFileProcessor13 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:49:35,032] {jobs.py:566} DagFileProcessor13 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:49:35,041] {models.py:322} DagFileProcessor13 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:49:35,041] {models.py:328} DagFileProcessor13 INFO - Failing jobs without heartbeat after 2018-04-22 02:44:35.041943
+[2018-04-22 02:49:35,044] {jobs.py:351} DagFileProcessor13 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.342 seconds
+[2018-04-22 02:50:04,339] {jobs.py:343} DagFileProcessor1 INFO - Started process (PID=27051) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:04,370] {jobs.py:534} DagFileProcessor1 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:50:04,370] {jobs.py:1521} DagFileProcessor1 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:50:04,370] {models.py:167} DagFileProcessor1 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:04,539] {jobs.py:1535} DagFileProcessor1 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:04,666] {jobs.py:1169} DagFileProcessor1 INFO - Processing daily_games
+[2018-04-22 02:50:04,672] {jobs.py:860} DagFileProcessor1 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:50:04,676] {models.py:4024} DagFileProcessor1 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:50:04,680] {jobs.py:566} DagFileProcessor1 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:50:04,690] {models.py:322} DagFileProcessor1 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:50:04,690] {models.py:328} DagFileProcessor1 INFO - Failing jobs without heartbeat after 2018-04-22 02:45:04.690233
+[2018-04-22 02:50:04,692] {jobs.py:351} DagFileProcessor1 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.353 seconds
+[2018-04-22 02:50:07,160] {jobs.py:343} DagFileProcessor3 INFO - Started process (PID=27059) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:07,165] {jobs.py:534} DagFileProcessor3 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:50:07,166] {jobs.py:1521} DagFileProcessor3 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:50:07,166] {models.py:167} DagFileProcessor3 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:07,333] {jobs.py:1535} DagFileProcessor3 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:07,463] {jobs.py:1169} DagFileProcessor3 INFO - Processing daily_games
+[2018-04-22 02:50:07,469] {jobs.py:860} DagFileProcessor3 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:50:07,473] {models.py:4024} DagFileProcessor3 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:50:07,477] {jobs.py:566} DagFileProcessor3 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:50:07,486] {models.py:322} DagFileProcessor3 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:50:07,487] {models.py:328} DagFileProcessor3 INFO - Failing jobs without heartbeat after 2018-04-22 02:45:07.487149
+[2018-04-22 02:50:07,489] {jobs.py:351} DagFileProcessor3 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.329 seconds
+[2018-04-22 02:50:09,988] {jobs.py:343} DagFileProcessor5 INFO - Started process (PID=27067) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:09,991] {jobs.py:534} DagFileProcessor5 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:50:09,992] {jobs.py:1521} DagFileProcessor5 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:50:09,992] {models.py:167} DagFileProcessor5 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:10,161] {jobs.py:1535} DagFileProcessor5 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:10,288] {jobs.py:1169} DagFileProcessor5 INFO - Processing daily_games
+[2018-04-22 02:50:10,294] {jobs.py:860} DagFileProcessor5 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:50:10,298] {models.py:4024} DagFileProcessor5 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:50:10,302] {jobs.py:566} DagFileProcessor5 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:50:10,311] {models.py:322} DagFileProcessor5 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:50:10,311] {models.py:328} DagFileProcessor5 INFO - Failing jobs without heartbeat after 2018-04-22 02:45:10.311338
+[2018-04-22 02:50:10,313] {jobs.py:351} DagFileProcessor5 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.325 seconds
+[2018-04-22 02:50:12,809] {jobs.py:343} DagFileProcessor7 INFO - Started process (PID=27076) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:12,824] {jobs.py:534} DagFileProcessor7 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:50:12,825] {jobs.py:1521} DagFileProcessor7 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:50:12,825] {models.py:167} DagFileProcessor7 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:12,993] {jobs.py:1535} DagFileProcessor7 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:13,120] {jobs.py:1169} DagFileProcessor7 INFO - Processing daily_games
+[2018-04-22 02:50:13,126] {jobs.py:860} DagFileProcessor7 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:50:13,130] {models.py:4024} DagFileProcessor7 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:50:13,134] {jobs.py:566} DagFileProcessor7 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:50:13,143] {models.py:322} DagFileProcessor7 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:50:13,143] {models.py:328} DagFileProcessor7 INFO - Failing jobs without heartbeat after 2018-04-22 02:45:13.143654
+[2018-04-22 02:50:13,146] {jobs.py:351} DagFileProcessor7 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.336 seconds
+[2018-04-22 02:50:15,637] {jobs.py:343} DagFileProcessor9 INFO - Started process (PID=27084) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:15,640] {jobs.py:534} DagFileProcessor9 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:50:15,641] {jobs.py:1521} DagFileProcessor9 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:50:15,641] {models.py:167} DagFileProcessor9 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:15,808] {jobs.py:1535} DagFileProcessor9 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:15,934] {jobs.py:1169} DagFileProcessor9 INFO - Processing daily_games
+[2018-04-22 02:50:15,939] {jobs.py:860} DagFileProcessor9 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:50:15,944] {models.py:4024} DagFileProcessor9 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:50:15,947] {jobs.py:566} DagFileProcessor9 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:50:15,956] {models.py:322} DagFileProcessor9 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:50:15,956] {models.py:328} DagFileProcessor9 INFO - Failing jobs without heartbeat after 2018-04-22 02:45:15.956742
+[2018-04-22 02:50:15,958] {jobs.py:351} DagFileProcessor9 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.322 seconds
+[2018-04-22 02:50:18,458] {jobs.py:343} DagFileProcessor11 INFO - Started process (PID=27092) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:18,482] {jobs.py:534} DagFileProcessor11 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:50:18,483] {jobs.py:1521} DagFileProcessor11 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:50:18,483] {models.py:167} DagFileProcessor11 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:18,650] {jobs.py:1535} DagFileProcessor11 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:18,776] {jobs.py:1169} DagFileProcessor11 INFO - Processing daily_games
+[2018-04-22 02:50:18,782] {jobs.py:860} DagFileProcessor11 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:50:18,786] {models.py:4024} DagFileProcessor11 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:50:18,790] {jobs.py:566} DagFileProcessor11 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:50:18,799] {models.py:322} DagFileProcessor11 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:50:18,799] {models.py:328} DagFileProcessor11 INFO - Failing jobs without heartbeat after 2018-04-22 02:45:18.799302
+[2018-04-22 02:50:18,801] {jobs.py:351} DagFileProcessor11 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.344 seconds
+[2018-04-22 02:50:21,285] {jobs.py:343} DagFileProcessor13 INFO - Started process (PID=27100) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:21,291] {jobs.py:534} DagFileProcessor13 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:50:21,292] {jobs.py:1521} DagFileProcessor13 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:50:21,292] {models.py:167} DagFileProcessor13 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:21,461] {jobs.py:1535} DagFileProcessor13 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:21,586] {jobs.py:1169} DagFileProcessor13 INFO - Processing daily_games
+[2018-04-22 02:50:21,593] {jobs.py:860} DagFileProcessor13 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:50:21,597] {models.py:4024} DagFileProcessor13 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:50:21,600] {jobs.py:566} DagFileProcessor13 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:50:21,609] {models.py:322} DagFileProcessor13 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:50:21,610] {models.py:328} DagFileProcessor13 INFO - Failing jobs without heartbeat after 2018-04-22 02:45:21.610004
+[2018-04-22 02:50:21,612] {jobs.py:351} DagFileProcessor13 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.327 seconds
+[2018-04-22 02:50:24,106] {jobs.py:343} DagFileProcessor15 INFO - Started process (PID=27108) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:24,109] {jobs.py:534} DagFileProcessor15 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:50:24,110] {jobs.py:1521} DagFileProcessor15 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:50:24,110] {models.py:167} DagFileProcessor15 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:24,278] {jobs.py:1535} DagFileProcessor15 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:24,405] {jobs.py:1169} DagFileProcessor15 INFO - Processing daily_games
+[2018-04-22 02:50:24,411] {jobs.py:860} DagFileProcessor15 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:50:24,415] {models.py:4024} DagFileProcessor15 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:50:24,419] {jobs.py:566} DagFileProcessor15 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:50:24,427] {models.py:322} DagFileProcessor15 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:50:24,428] {models.py:328} DagFileProcessor15 INFO - Failing jobs without heartbeat after 2018-04-22 02:45:24.428042
+[2018-04-22 02:50:24,430] {jobs.py:351} DagFileProcessor15 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.323 seconds
+[2018-04-22 02:50:26,933] {jobs.py:343} DagFileProcessor17 INFO - Started process (PID=27116) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:26,936] {jobs.py:534} DagFileProcessor17 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:50:26,937] {jobs.py:1521} DagFileProcessor17 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:50:26,937] {models.py:167} DagFileProcessor17 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:27,104] {jobs.py:1535} DagFileProcessor17 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:27,230] {jobs.py:1169} DagFileProcessor17 INFO - Processing daily_games
+[2018-04-22 02:50:27,236] {jobs.py:860} DagFileProcessor17 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:50:27,240] {models.py:4024} DagFileProcessor17 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:50:27,244] {jobs.py:566} DagFileProcessor17 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:50:27,253] {models.py:322} DagFileProcessor17 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:50:27,253] {models.py:328} DagFileProcessor17 INFO - Failing jobs without heartbeat after 2018-04-22 02:45:27.253552
+[2018-04-22 02:50:27,255] {jobs.py:351} DagFileProcessor17 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.322 seconds
+[2018-04-22 02:50:29,754] {jobs.py:343} DagFileProcessor19 INFO - Started process (PID=27124) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:29,757] {jobs.py:534} DagFileProcessor19 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:50:29,757] {jobs.py:1521} DagFileProcessor19 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:50:29,757] {models.py:167} DagFileProcessor19 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:29,966] {jobs.py:1535} DagFileProcessor19 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:30,092] {jobs.py:1169} DagFileProcessor19 INFO - Processing daily_games
+[2018-04-22 02:50:30,098] {jobs.py:860} DagFileProcessor19 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:50:30,102] {models.py:4024} DagFileProcessor19 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:50:30,105] {jobs.py:566} DagFileProcessor19 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:50:30,114] {models.py:322} DagFileProcessor19 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:50:30,114] {models.py:328} DagFileProcessor19 INFO - Failing jobs without heartbeat after 2018-04-22 02:45:30.114950
+[2018-04-22 02:50:30,117] {jobs.py:351} DagFileProcessor19 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.363 seconds
+[2018-04-22 02:50:50,036] {jobs.py:343} DagFileProcessor1 INFO - Started process (PID=27170) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:50,041] {jobs.py:534} DagFileProcessor1 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:50:50,042] {jobs.py:1521} DagFileProcessor1 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:50:50,042] {models.py:167} DagFileProcessor1 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:50,209] {jobs.py:1535} DagFileProcessor1 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:50,336] {jobs.py:1169} DagFileProcessor1 INFO - Processing daily_games
+[2018-04-22 02:50:50,342] {jobs.py:860} DagFileProcessor1 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:50:50,346] {models.py:4024} DagFileProcessor1 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:50:50,350] {jobs.py:566} DagFileProcessor1 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:50:50,359] {models.py:322} DagFileProcessor1 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:50:50,359] {models.py:328} DagFileProcessor1 INFO - Failing jobs without heartbeat after 2018-04-22 02:45:50.359673
+[2018-04-22 02:50:50,361] {jobs.py:351} DagFileProcessor1 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.325 seconds
+[2018-04-22 02:50:52,857] {jobs.py:343} DagFileProcessor3 INFO - Started process (PID=27178) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:52,884] {jobs.py:534} DagFileProcessor3 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:50:52,885] {jobs.py:1521} DagFileProcessor3 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:50:52,885] {models.py:167} DagFileProcessor3 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:53,050] {jobs.py:1535} DagFileProcessor3 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:53,178] {jobs.py:1169} DagFileProcessor3 INFO - Processing daily_games
+[2018-04-22 02:50:53,184] {jobs.py:860} DagFileProcessor3 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:50:53,189] {models.py:4024} DagFileProcessor3 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:50:53,192] {jobs.py:566} DagFileProcessor3 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:50:53,201] {models.py:322} DagFileProcessor3 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:50:53,201] {models.py:328} DagFileProcessor3 INFO - Failing jobs without heartbeat after 2018-04-22 02:45:53.201658
+[2018-04-22 02:50:53,203] {jobs.py:351} DagFileProcessor3 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.346 seconds
+[2018-04-22 02:50:55,685] {jobs.py:343} DagFileProcessor5 INFO - Started process (PID=27186) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:55,710] {jobs.py:534} DagFileProcessor5 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:50:55,710] {jobs.py:1521} DagFileProcessor5 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:50:55,710] {models.py:167} DagFileProcessor5 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:55,877] {jobs.py:1535} DagFileProcessor5 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:56,004] {jobs.py:1169} DagFileProcessor5 INFO - Processing daily_games
+[2018-04-22 02:50:56,010] {jobs.py:860} DagFileProcessor5 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:50:56,014] {models.py:4024} DagFileProcessor5 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:50:56,018] {jobs.py:566} DagFileProcessor5 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:50:56,027] {models.py:322} DagFileProcessor5 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:50:56,027] {models.py:328} DagFileProcessor5 INFO - Failing jobs without heartbeat after 2018-04-22 02:45:56.027472
+[2018-04-22 02:50:56,029] {jobs.py:351} DagFileProcessor5 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.344 seconds
+[2018-04-22 02:50:58,505] {jobs.py:343} DagFileProcessor7 INFO - Started process (PID=27194) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:58,535] {jobs.py:534} DagFileProcessor7 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:50:58,536] {jobs.py:1521} DagFileProcessor7 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:50:58,536] {models.py:167} DagFileProcessor7 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:58,701] {jobs.py:1535} DagFileProcessor7 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:50:58,830] {jobs.py:1169} DagFileProcessor7 INFO - Processing daily_games
+[2018-04-22 02:50:58,836] {jobs.py:860} DagFileProcessor7 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:50:58,840] {models.py:4024} DagFileProcessor7 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:50:58,843] {jobs.py:566} DagFileProcessor7 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:50:58,852] {models.py:322} DagFileProcessor7 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:50:58,852] {models.py:328} DagFileProcessor7 INFO - Failing jobs without heartbeat after 2018-04-22 02:45:58.852864
+[2018-04-22 02:50:58,855] {jobs.py:351} DagFileProcessor7 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.349 seconds
+[2018-04-22 02:51:01,332] {jobs.py:343} DagFileProcessor9 INFO - Started process (PID=27202) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:51:01,366] {jobs.py:534} DagFileProcessor9 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:51:01,367] {jobs.py:1521} DagFileProcessor9 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:51:01,367] {models.py:167} DagFileProcessor9 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:51:01,539] {jobs.py:1535} DagFileProcessor9 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:51:01,670] {jobs.py:1169} DagFileProcessor9 INFO - Processing daily_games
+[2018-04-22 02:51:01,676] {jobs.py:860} DagFileProcessor9 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:51:01,680] {models.py:4024} DagFileProcessor9 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:51:01,684] {jobs.py:566} DagFileProcessor9 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:51:01,693] {models.py:322} DagFileProcessor9 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:51:01,693] {models.py:328} DagFileProcessor9 INFO - Failing jobs without heartbeat after 2018-04-22 02:46:01.693677
+[2018-04-22 02:51:01,696] {jobs.py:351} DagFileProcessor9 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.363 seconds
+[2018-04-22 02:51:04,154] {jobs.py:343} DagFileProcessor11 INFO - Started process (PID=27210) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:51:04,179] {jobs.py:534} DagFileProcessor11 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:51:04,180] {jobs.py:1521} DagFileProcessor11 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:51:04,180] {models.py:167} DagFileProcessor11 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:51:04,348] {jobs.py:1535} DagFileProcessor11 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:51:04,475] {jobs.py:1169} DagFileProcessor11 INFO - Processing daily_games
+[2018-04-22 02:51:04,481] {jobs.py:860} DagFileProcessor11 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:51:04,486] {models.py:4024} DagFileProcessor11 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:51:04,489] {jobs.py:566} DagFileProcessor11 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:51:04,498] {models.py:322} DagFileProcessor11 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:51:04,498] {models.py:328} DagFileProcessor11 INFO - Failing jobs without heartbeat after 2018-04-22 02:46:04.498864
+[2018-04-22 02:51:04,501] {jobs.py:351} DagFileProcessor11 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.347 seconds
+[2018-04-22 02:52:06,525] {jobs.py:343} DagFileProcessor1 INFO - Started process (PID=27262) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:06,564] {jobs.py:534} DagFileProcessor1 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:52:06,564] {jobs.py:1521} DagFileProcessor1 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:52:06,565] {models.py:167} DagFileProcessor1 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:06,732] {jobs.py:1535} DagFileProcessor1 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:06,861] {jobs.py:1169} DagFileProcessor1 INFO - Processing daily_games
+[2018-04-22 02:52:06,867] {jobs.py:860} DagFileProcessor1 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:52:06,871] {models.py:4024} DagFileProcessor1 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:52:06,874] {jobs.py:566} DagFileProcessor1 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:52:06,884] {models.py:322} DagFileProcessor1 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:52:06,884] {models.py:328} DagFileProcessor1 INFO - Failing jobs without heartbeat after 2018-04-22 02:47:06.884403
+[2018-04-22 02:52:06,886] {jobs.py:351} DagFileProcessor1 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.361 seconds
+[2018-04-22 02:52:09,346] {jobs.py:343} DagFileProcessor3 INFO - Started process (PID=27270) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:09,378] {jobs.py:534} DagFileProcessor3 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:52:09,379] {jobs.py:1521} DagFileProcessor3 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:52:09,379] {models.py:167} DagFileProcessor3 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:09,544] {jobs.py:1535} DagFileProcessor3 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:09,670] {jobs.py:1169} DagFileProcessor3 INFO - Processing daily_games
+[2018-04-22 02:52:09,676] {jobs.py:860} DagFileProcessor3 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:52:09,680] {models.py:4024} DagFileProcessor3 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:52:09,685] {jobs.py:566} DagFileProcessor3 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:52:09,693] {models.py:322} DagFileProcessor3 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:52:09,694] {models.py:328} DagFileProcessor3 INFO - Failing jobs without heartbeat after 2018-04-22 02:47:09.694159
+[2018-04-22 02:52:09,696] {jobs.py:351} DagFileProcessor3 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.350 seconds
+[2018-04-22 02:52:12,174] {jobs.py:343} DagFileProcessor5 INFO - Started process (PID=27278) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:12,201] {jobs.py:534} DagFileProcessor5 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:52:12,202] {jobs.py:1521} DagFileProcessor5 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:52:12,202] {models.py:167} DagFileProcessor5 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:12,367] {jobs.py:1535} DagFileProcessor5 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:12,494] {jobs.py:1169} DagFileProcessor5 INFO - Processing daily_games
+[2018-04-22 02:52:12,499] {jobs.py:860} DagFileProcessor5 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:52:12,504] {models.py:4024} DagFileProcessor5 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:52:12,507] {jobs.py:566} DagFileProcessor5 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:52:12,516] {models.py:322} DagFileProcessor5 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:52:12,516] {models.py:328} DagFileProcessor5 INFO - Failing jobs without heartbeat after 2018-04-22 02:47:12.516745
+[2018-04-22 02:52:12,518] {jobs.py:351} DagFileProcessor5 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.344 seconds
+[2018-04-22 02:52:14,995] {jobs.py:343} DagFileProcessor7 INFO - Started process (PID=27286) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:14,998] {jobs.py:534} DagFileProcessor7 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:52:14,999] {jobs.py:1521} DagFileProcessor7 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:52:14,999] {models.py:167} DagFileProcessor7 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:15,164] {jobs.py:1535} DagFileProcessor7 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:15,292] {jobs.py:1169} DagFileProcessor7 INFO - Processing daily_games
+[2018-04-22 02:52:15,298] {jobs.py:860} DagFileProcessor7 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:52:15,302] {models.py:4024} DagFileProcessor7 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:52:15,306] {jobs.py:566} DagFileProcessor7 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:52:15,315] {models.py:322} DagFileProcessor7 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:52:15,315] {models.py:328} DagFileProcessor7 INFO - Failing jobs without heartbeat after 2018-04-22 02:47:15.315414
+[2018-04-22 02:52:15,317] {jobs.py:351} DagFileProcessor7 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.323 seconds
+[2018-04-22 02:52:17,821] {jobs.py:343} DagFileProcessor9 INFO - Started process (PID=27294) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:17,841] {jobs.py:534} DagFileProcessor9 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:52:17,842] {jobs.py:1521} DagFileProcessor9 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:52:17,842] {models.py:167} DagFileProcessor9 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:18,007] {jobs.py:1535} DagFileProcessor9 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:18,134] {jobs.py:1169} DagFileProcessor9 INFO - Processing daily_games
+[2018-04-22 02:52:18,140] {jobs.py:860} DagFileProcessor9 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:52:18,145] {models.py:4024} DagFileProcessor9 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:52:18,148] {jobs.py:566} DagFileProcessor9 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:52:18,157] {models.py:322} DagFileProcessor9 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:52:18,157] {models.py:328} DagFileProcessor9 INFO - Failing jobs without heartbeat after 2018-04-22 02:47:18.157651
+[2018-04-22 02:52:18,159] {jobs.py:351} DagFileProcessor9 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.338 seconds
+[2018-04-22 02:52:20,642] {jobs.py:343} DagFileProcessor11 INFO - Started process (PID=27302) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:20,645] {jobs.py:534} DagFileProcessor11 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:52:20,645] {jobs.py:1521} DagFileProcessor11 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:52:20,646] {models.py:167} DagFileProcessor11 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:20,811] {jobs.py:1535} DagFileProcessor11 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:20,938] {jobs.py:1169} DagFileProcessor11 INFO - Processing daily_games
+[2018-04-22 02:52:20,944] {jobs.py:860} DagFileProcessor11 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:52:20,948] {models.py:4024} DagFileProcessor11 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:52:20,951] {jobs.py:566} DagFileProcessor11 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:52:20,960] {models.py:322} DagFileProcessor11 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:52:20,961] {models.py:328} DagFileProcessor11 INFO - Failing jobs without heartbeat after 2018-04-22 02:47:20.961053
+[2018-04-22 02:52:20,963] {jobs.py:351} DagFileProcessor11 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.321 seconds
+[2018-04-22 02:52:23,469] {jobs.py:343} DagFileProcessor13 INFO - Started process (PID=27310) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:23,471] {jobs.py:534} DagFileProcessor13 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:52:23,472] {jobs.py:1521} DagFileProcessor13 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:52:23,472] {models.py:167} DagFileProcessor13 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:23,638] {jobs.py:1535} DagFileProcessor13 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:23,763] {jobs.py:1169} DagFileProcessor13 INFO - Processing daily_games
+[2018-04-22 02:52:23,769] {jobs.py:860} DagFileProcessor13 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:52:23,773] {models.py:4024} DagFileProcessor13 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:52:23,777] {jobs.py:566} DagFileProcessor13 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:52:23,786] {models.py:322} DagFileProcessor13 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:52:23,786] {models.py:328} DagFileProcessor13 INFO - Failing jobs without heartbeat after 2018-04-22 02:47:23.786309
+[2018-04-22 02:52:23,788] {jobs.py:351} DagFileProcessor13 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.319 seconds
+[2018-04-22 02:52:26,289] {jobs.py:343} DagFileProcessor15 INFO - Started process (PID=27318) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:26,292] {jobs.py:534} DagFileProcessor15 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:52:26,293] {jobs.py:1521} DagFileProcessor15 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:52:26,293] {models.py:167} DagFileProcessor15 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:26,458] {jobs.py:1535} DagFileProcessor15 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:26,587] {jobs.py:1169} DagFileProcessor15 INFO - Processing daily_games
+[2018-04-22 02:52:26,593] {jobs.py:860} DagFileProcessor15 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:52:26,597] {models.py:4024} DagFileProcessor15 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:52:26,600] {jobs.py:566} DagFileProcessor15 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:52:26,609] {models.py:322} DagFileProcessor15 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:52:26,609] {models.py:328} DagFileProcessor15 INFO - Failing jobs without heartbeat after 2018-04-22 02:47:26.609785
+[2018-04-22 02:52:26,612] {jobs.py:351} DagFileProcessor15 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.322 seconds
+[2018-04-22 02:52:29,116] {jobs.py:343} DagFileProcessor17 INFO - Started process (PID=27326) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:29,119] {jobs.py:534} DagFileProcessor17 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:52:29,120] {jobs.py:1521} DagFileProcessor17 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:52:29,120] {models.py:167} DagFileProcessor17 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:29,286] {jobs.py:1535} DagFileProcessor17 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:29,412] {jobs.py:1169} DagFileProcessor17 INFO - Processing daily_games
+[2018-04-22 02:52:29,418] {jobs.py:860} DagFileProcessor17 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:52:29,422] {models.py:4024} DagFileProcessor17 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:52:29,426] {jobs.py:566} DagFileProcessor17 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:52:29,434] {models.py:322} DagFileProcessor17 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:52:29,435] {models.py:328} DagFileProcessor17 INFO - Failing jobs without heartbeat after 2018-04-22 02:47:29.435108
+[2018-04-22 02:52:29,437] {jobs.py:351} DagFileProcessor17 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.321 seconds
+[2018-04-22 02:52:31,938] {jobs.py:343} DagFileProcessor19 INFO - Started process (PID=27336) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:31,966] {jobs.py:534} DagFileProcessor19 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:52:31,967] {jobs.py:1521} DagFileProcessor19 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:52:31,967] {models.py:167} DagFileProcessor19 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:32,132] {jobs.py:1535} DagFileProcessor19 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:32,258] {jobs.py:1169} DagFileProcessor19 INFO - Processing daily_games
+[2018-04-22 02:52:32,263] {jobs.py:860} DagFileProcessor19 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:52:32,268] {models.py:4024} DagFileProcessor19 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:52:32,271] {jobs.py:566} DagFileProcessor19 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:52:32,280] {models.py:322} DagFileProcessor19 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:52:32,280] {models.py:328} DagFileProcessor19 INFO - Failing jobs without heartbeat after 2018-04-22 02:47:32.280600
+[2018-04-22 02:52:32,282] {jobs.py:351} DagFileProcessor19 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.345 seconds
+[2018-04-22 02:52:34,764] {jobs.py:343} DagFileProcessor21 INFO - Started process (PID=27344) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:34,787] {jobs.py:534} DagFileProcessor21 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:52:34,788] {jobs.py:1521} DagFileProcessor21 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:52:34,788] {models.py:167} DagFileProcessor21 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:34,954] {jobs.py:1535} DagFileProcessor21 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:35,080] {jobs.py:1169} DagFileProcessor21 INFO - Processing daily_games
+[2018-04-22 02:52:35,086] {jobs.py:860} DagFileProcessor21 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:52:35,091] {models.py:4024} DagFileProcessor21 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:52:35,094] {jobs.py:566} DagFileProcessor21 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:52:35,103] {models.py:322} DagFileProcessor21 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:52:35,103] {models.py:328} DagFileProcessor21 INFO - Failing jobs without heartbeat after 2018-04-22 02:47:35.103766
+[2018-04-22 02:52:35,106] {jobs.py:351} DagFileProcessor21 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.341 seconds
+[2018-04-22 02:52:37,585] {jobs.py:343} DagFileProcessor23 INFO - Started process (PID=27352) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:37,591] {jobs.py:534} DagFileProcessor23 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:52:37,592] {jobs.py:1521} DagFileProcessor23 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:52:37,592] {models.py:167} DagFileProcessor23 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:37,758] {jobs.py:1535} DagFileProcessor23 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:37,883] {jobs.py:1169} DagFileProcessor23 INFO - Processing daily_games
+[2018-04-22 02:52:37,889] {jobs.py:860} DagFileProcessor23 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:52:37,893] {models.py:4024} DagFileProcessor23 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:52:37,897] {jobs.py:566} DagFileProcessor23 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:52:37,905] {models.py:322} DagFileProcessor23 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:52:37,905] {models.py:328} DagFileProcessor23 INFO - Failing jobs without heartbeat after 2018-04-22 02:47:37.905873
+[2018-04-22 02:52:37,908] {jobs.py:351} DagFileProcessor23 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.322 seconds
+[2018-04-22 02:52:40,412] {jobs.py:343} DagFileProcessor25 INFO - Started process (PID=27360) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:40,415] {jobs.py:534} DagFileProcessor25 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:52:40,415] {jobs.py:1521} DagFileProcessor25 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:52:40,416] {models.py:167} DagFileProcessor25 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:40,581] {jobs.py:1535} DagFileProcessor25 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:40,707] {jobs.py:1169} DagFileProcessor25 INFO - Processing daily_games
+[2018-04-22 02:52:40,713] {jobs.py:860} DagFileProcessor25 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:52:40,717] {models.py:4024} DagFileProcessor25 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:52:40,721] {jobs.py:566} DagFileProcessor25 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:52:40,730] {models.py:322} DagFileProcessor25 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:52:40,730] {models.py:328} DagFileProcessor25 INFO - Failing jobs without heartbeat after 2018-04-22 02:47:40.730393
+[2018-04-22 02:52:40,732] {jobs.py:351} DagFileProcessor25 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.320 seconds
+[2018-04-22 02:52:43,233] {jobs.py:343} DagFileProcessor27 INFO - Started process (PID=27368) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:43,257] {jobs.py:534} DagFileProcessor27 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:52:43,257] {jobs.py:1521} DagFileProcessor27 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:52:43,258] {models.py:167} DagFileProcessor27 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:43,424] {jobs.py:1535} DagFileProcessor27 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:43,550] {jobs.py:1169} DagFileProcessor27 INFO - Processing daily_games
+[2018-04-22 02:52:43,556] {jobs.py:860} DagFileProcessor27 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:52:43,560] {models.py:4024} DagFileProcessor27 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:52:43,564] {jobs.py:566} DagFileProcessor27 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:52:43,573] {models.py:322} DagFileProcessor27 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:52:43,573] {models.py:328} DagFileProcessor27 INFO - Failing jobs without heartbeat after 2018-04-22 02:47:43.573480
+[2018-04-22 02:52:43,575] {jobs.py:351} DagFileProcessor27 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.342 seconds
+[2018-04-22 02:52:46,060] {jobs.py:343} DagFileProcessor29 INFO - Started process (PID=27376) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:46,063] {jobs.py:534} DagFileProcessor29 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:52:46,063] {jobs.py:1521} DagFileProcessor29 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:52:46,063] {models.py:167} DagFileProcessor29 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:46,228] {jobs.py:1535} DagFileProcessor29 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:46,356] {jobs.py:1169} DagFileProcessor29 INFO - Processing daily_games
+[2018-04-22 02:52:46,361] {jobs.py:860} DagFileProcessor29 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:52:46,366] {models.py:4024} DagFileProcessor29 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:52:46,369] {jobs.py:566} DagFileProcessor29 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:52:46,378] {models.py:322} DagFileProcessor29 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:52:46,378] {models.py:328} DagFileProcessor29 INFO - Failing jobs without heartbeat after 2018-04-22 02:47:46.378787
+[2018-04-22 02:52:46,380] {jobs.py:351} DagFileProcessor29 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.321 seconds
+[2018-04-22 02:52:48,882] {jobs.py:343} DagFileProcessor31 INFO - Started process (PID=27384) to work on /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:48,884] {jobs.py:534} DagFileProcessor31 ERROR - Cannot use more than 1 thread when using sqlite. Setting max_threads to 1
+[2018-04-22 02:52:48,885] {jobs.py:1521} DagFileProcessor31 INFO - Processing file /home/ec2-user/esports/airflow/dags/load_games_daily.py for tasks to queue
+[2018-04-22 02:52:48,885] {models.py:167} DagFileProcessor31 INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:49,051] {jobs.py:1535} DagFileProcessor31 INFO - DAG(s) ['daily_games', 'example_skip_dag', 'test_utils', 'example_subdag_operator.section-2', 'example_subdag_operator.section-1', 'latest_only', 'example_passing_params_via_test_command', 'example_python_operator', 'example_bash_operator', 'latest_only_with_trigger', 'example_trigger_target_dag', 'example_branch_operator', 'example_short_circuit_operator', 'example_http_operator', 'example_xcom', 'example_branch_dop_operator_v3', 'example_trigger_controller_dag', 'tutorial', 'example_subdag_operator'] retrieved from /home/ec2-user/esports/airflow/dags/load_games_daily.py
+[2018-04-22 02:52:49,178] {jobs.py:1169} DagFileProcessor31 INFO - Processing daily_games
+[2018-04-22 02:52:49,184] {jobs.py:860} DagFileProcessor31 INFO - Examining DAG run <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False>
+[2018-04-22 02:52:49,188] {models.py:4024} DagFileProcessor31 INFO - Updating state for <DagRun daily_games @ 2018-04-21 00:30:00: scheduled__2018-04-21T00:30:00, externally triggered: False> considering 2 task(s)
+[2018-04-22 02:52:49,192] {jobs.py:566} DagFileProcessor31 INFO - Skipping SLA check for <DAG: daily_games> because no tasks in DAG have SLAs
+[2018-04-22 02:52:49,201] {models.py:322} DagFileProcessor31 INFO - Finding 'running' jobs without a recent heartbeat
+[2018-04-22 02:52:49,201] {models.py:328} DagFileProcessor31 INFO - Failing jobs without heartbeat after 2018-04-22 02:47:49.201307
+[2018-04-22 02:52:49,204] {jobs.py:351} DagFileProcessor31 INFO - Processing /home/ec2-user/esports/airflow/dags/load_games_daily.py took 0.322 seconds

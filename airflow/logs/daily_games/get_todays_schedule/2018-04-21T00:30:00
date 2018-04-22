@@ -1,0 +1,1 @@
+[2018-04-22 02:46:20,761] {models.py:167} INFO - Filling up the DagBag from /home/ec2-user/esports/airflow/dags/load_daily_games.py
