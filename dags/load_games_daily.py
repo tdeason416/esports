@@ -2,6 +2,7 @@ from __future__ import print_function
 from builtins import range
 from datetime import date, datetime
 import airflow
+import json
 from airflow.operators.python_operator import PythonOperator
 from airflow.models import DAG
 
