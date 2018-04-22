@@ -8,8 +8,6 @@ from kafka import KafkaProducer
 
 import time
 from pprint import pprint
-print("HAZEL IS HERE")
-print("poop")
 
 args = {
     'owner': 'DABFS',
