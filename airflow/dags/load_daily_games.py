@@ -15,7 +15,7 @@ default_args = {
     'retries': 5,
     'retry_delay': timedelta(seconds=240),
 }
-dag = DAG('daily_games', default_args=default_args, schedule_interval='30 0 * * *')
+dag = DAG('games_daily', default_args=default_args, schedule_interval='30 0 * * *')
 
 update_games = PythonOperator(
         task_id='load_daily_games',
