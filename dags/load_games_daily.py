@@ -2,6 +2,7 @@ from datetime import date, datetime
 import airflow
 import json
 from airflow.operators.python_operator import PythonOperator
+from airflow.operators.bash_operator import BashOperator
 from airflow.models import DAG
 
 import time
@@ -32,8 +33,5 @@ def get_game_schedule():
     with open('../data/schedule_today.json', 'wb') as wf:
         json.dump(games_today, wf)
 
-run_this = PythonOperator(
-    task_id='get_todays_schedule',
-    provide_context=True,
-    python_callable=get_game_schedule,
-    dag=dag)
+this_run = BashOperator(task_id='get_todays_schedule',
+    bash_command="python /home/ec2-user/esports/src/find_daily_events.py", dag=dag)
