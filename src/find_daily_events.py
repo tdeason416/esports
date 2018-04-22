@@ -7,4 +7,4 @@ import os
 
 MLB_KEY = os.environ["MLB_KEY"]
 
-get_game_schedule():
+collect_data.get_game_schedule()
