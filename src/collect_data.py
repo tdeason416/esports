@@ -12,7 +12,7 @@ def get_game_schedule():
     # with open('games_today.json', 'r') as fh:
     #     data = json.load(fh)
     ## use this for prod
-    data = json.load(open('games_today.json'))
+    #data = json.load(open('/home/ec2-user/esports/data/games_today.json'))
     games_today_url = "http://api.sportradar.us/mlb/trial/v6.5/en/games/{}/boxscore.json?api_key={}".format(date_frmt, MLB_KEY)
     response = requests.get(games_today_url)
     data = response.json()
@@ -20,7 +20,7 @@ def get_game_schedule():
     games_today = {}
     for game in games:
         games_today[game["game"]["id"]] = game["game"]["scheduled"]
-    with open('../data/schedule_today.json', 'wb') as wf:
+    with open('/home/ec2-user/esports/data/schedule_today.json', 'wb') as wf:
         json.dump(games_today, wf)
 
 
