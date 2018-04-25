@@ -17,9 +17,7 @@ def insert_record(record):
 consumer = KafkaConsumer(bootstrap_servers='localhost:9092', group_id='mlb_reader', consumer_timeout_ms=1000)
 consumer.subscribe([KAFKA_TOPIC_NAME])
 
-while True:
-    for message in consumer:
-        data = ast.literal_eval(message.value)
-        #print(data)
-        insert_record(data)
+for message in consumer:
+    data = ast.literal_eval(message.value)
+    insert_record(data)
 
